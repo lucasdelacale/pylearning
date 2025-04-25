@@ -10,4 +10,4 @@ https://github.com/dracula/iterm
 
 Instalação:
  iTerm2 > Preferences > Profiles > Colors
- Color Presets... > Import
+ Color Presets... > Import.
