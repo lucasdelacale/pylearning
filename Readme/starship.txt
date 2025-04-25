@@ -1,0 +1,44 @@
+📁 Crie o arquivo de config do Starship:
+mkdir -p ~/.config
+touch ~/.config/starship.toml
+
+⚙️ Edite o arquivo:
+nano ~/.config/starship.toml
+
+✨ Insira as configs no arquivo ~/.config/starship.toml:
+add_newline = true
+format = """
+$directory$git_branch$git_status$nodejs$python$cmd_duration
+$character
+"""
+
+[directory]
+style = "blue bold"
+truncation_length = 3
+truncation_symbol = "…/"
+
+[git_branch]
+symbol = "🌿 "
+style = "green bold"
+
+[git_status]
+style = "red"
+format = '([$all_status]($style)) '
+
+[python]
+symbol = "🐍 "
+style = "yellow"
+format = 'via [$symbol$version]($style) '
+
+[nodejs]
+symbol = "📦 "
+style = "bold green"
+
+[cmd_duration]
+format = "🕒 [$duration]($style) "
+style = "bold yellow"
+
+✅ Aplique as alterações:
+exec "$SHELL"
+
+
