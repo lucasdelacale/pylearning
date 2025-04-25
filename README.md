@@ -2,7 +2,7 @@ Readme.md
 
 Prompts, plugins, fontes e fluxo de trabalho.
 
-IDE: Visual Studio Code (Padrão) https://code.visualstudio.com/Download
+IDE: Visual Studio Code (Padrão) https://code.visualstudio.com/Download <r>
 Pluguins VSCode: Dracula Dark Theme, Python, CodeRunner
 
 Shell: Iterm2 (Shell com maior performance e altamente personalizável (somente Mac OS))
